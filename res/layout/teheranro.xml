@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/teheranroback" >
+    
+    <Button
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="btnClick1"
+    android:text="ALVER"
+    android:background="@drawable/buttonshape_3"
+    android:layout_margin="20dip"
+    />
+    
+
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick2"
+        android:layout_below="@+id/button1"
+        android:text="비어팩토리" 
+        android:background="@drawable/buttonshape_3"
+        android:layout_margin="20dip"/>
+    
+     
+</LinearLayout>

@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/agefinal"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/Edit"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_weight="0.46"
+            android:ems="10"
+            android:hint="나이입력"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="150dp"
+           
+            android:background="@drawable/buttonshape_4"
+            
+            android:text="개월수" />
+
+        <Button
+            android:id="@+id/btnYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/buttonshape_4"
+            android:text="년" />
+    </LinearLayout>
+        
+   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+   
+
+   
+
+        
+      </LinearLayout>
+
+   <TextView
+       android:id="@+id/TextResult"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:layout_span="5"
+       android:text="사람나이:"
+       android:textColor="#080505"
+       android:textSize="30dp"
+       android:textStyle="bold|italic"
+       android:typeface="serif" />
+
+</LinearLayout>

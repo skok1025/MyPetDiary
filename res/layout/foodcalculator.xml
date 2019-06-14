@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/foodfinal">
+    
+
+    
+    <TableRow>
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="kg를 입력하세요."
+            android:inputType="textCapWords"
+            android:textSize="18dp" >
+
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+    
+    <TableRow>
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+       
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="계수를 입력하세요."
+        
+        android:textSize="18dp" >
+        </EditText>
+        </TableRow>
+    
+<TableRow >
+<LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/buttonshape_2"
+        android:text="사료랑 계산하기" />
+
+    <TextView
+        android:id="@+id/TextResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="사료량:"
+        android:textColor="#080505"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+</LinearLayout>
+
+<LinearLayout >
+ 
+</LinearLayout>
+
+    </TableRow>
+
+
+
+       
+    
+<TableRow>
+  </TableRow>
+  
+     </TableLayout>
+
+      
+
+

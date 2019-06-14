@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".DogMainActivity"
+    android:background="@drawable/petcafe"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:onClick="btnClick1"
+        android:text="신사" 
+        android:layout_margin="4dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape_1"/>
+
+      <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:onClick="btnClick2"
+        android:layout_below="@+id/button1"
+        android:text="테헤란로" 
+        android:layout_margin="4dip"
+         android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape_1"/>
+      <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:onClick="btnClick3"
+        android:layout_below="@+id/button2"
+        android:text="서초"
+        android:layout_margin="4dip"
+         android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape_1" />
+      
+       <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:onClick="btnClick4"
+        android:layout_below="@+id/button3"
+        android:text="잠실" 
+        android:layout_margin="4dip"
+         android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape_1"/>
+       
+        <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:onClick="btnClick5"
+        android:layout_below="@+id/button4"
+        android:text="건대" 
+        android:layout_margin="4dip"
+         android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape_1"/>
+        
+          <Button
+        android:id="@+id/button6"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:onClick="btnClick6"
+        android:layout_below="@+id/button5"
+        android:text="이태원" 
+        android:layout_margin="4dip"
+         android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape_1"/>
+         
+          <Button
+        android:id="@+id/button7"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:onClick="btnClick7"
+        android:layout_below="@+id/button6"
+        android:text="홍대" 
+        android:layout_margin="4dip"
+         android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape_1"/>
+          
+           <Button
+        android:id="@+id/button8"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:onClick="btnClick8"
+        android:layout_below="@+id/button7"
+        android:text="북촌" 
+        android:layout_margin="4dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape_1"/>
+           
+</LinearLayout>

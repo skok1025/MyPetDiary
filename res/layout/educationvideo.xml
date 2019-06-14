@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/petvideo"
+    android:orientation="vertical" >
+	 
+	<Button
+		android:text="분리 불안 훈련"
+		android:id="@+id/button1"
+		android:layout_width="200dp"
+		android:layout_height="60dp"
+		android:layout_margin="18dip"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/buttonshape"
+	    android:layout_gravity="right"></Button>
+	
+	<Button
+		android:text="배변 훈련"
+		android:id="@+id/button2"
+		android:layout_width="200dp"
+		android:layout_height="60dp"
+		android:layout_margin="18dip"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/buttonshape"
+		android:layout_gravity="right"></Button>
+	
+	<Button
+		android:text="산책 훈련"
+		android:id="@+id/button3"
+		android:layout_width="200dp"
+		android:layout_height="60dp"
+		android:layout_margin="18dip"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/buttonshape"
+		android:layout_gravity="right"></Button>
+	
+	<Button
+		android:text="서열 정리"
+		android:id="@+id/button4"
+		android:layout_width="200dp"
+		android:layout_height="60dp"
+		android:layout_margin="18dip"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/buttonshape"
+		android:layout_gravity="right"></Button>
+	
+	<Button
+		android:text="무는 강아지"
+		android:id="@+id/button5"
+		android:layout_width="200dp"
+		android:layout_height="60dp"
+		android:layout_margin="18dip"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/buttonshape"
+		android:layout_gravity="right"></Button>
+	
+	
+</LinearLayout>

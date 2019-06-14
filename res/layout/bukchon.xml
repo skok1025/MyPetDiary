@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bukchonback" >
+    
+    <Button
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dip"
+    android:onClick="btnClick1"
+    android:text="까로맘"
+    android:background="@drawable/buttonshape_3"
+    />
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:onClick="btnClick2"
+        android:layout_below="@+id/button1"
+        android:background="@drawable/buttonshape_3"
+        android:text="믹스앤몰트" />
+    
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:onClick="btnClick3"
+        android:layout_below="@+id/button2"
+        android:background="@drawable/buttonshape_3"
+        android:text="카페 여름" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:background="@drawable/buttonshape_3"
+        android:onClick="btnClick4"
+        android:text="엄마키친" />
+
+</LinearLayout>

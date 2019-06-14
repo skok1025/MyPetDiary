@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ffffffff"
+	    >
+	    <Button  
+			android:id="@+id/monthPrevious"
+		    android:layout_width="46dp" 
+		    android:layout_height="wrap_content" 
+		    android:background="@drawable/backward"
+		    android:gravity="center_horizontal"
+		    android:layout_alignParentLeft="true"
+		    />
+		<TextView  
+			android:id="@+id/monthText"
+		    android:layout_width="200dp" 
+		    android:layout_height="wrap_content" 
+		    android:text="MonthView"
+		    android:textSize="24dp"
+		    android:textStyle="bold"
+		    android:gravity="center_horizontal"
+		    android:layout_centerInParent="true"
+		    />
+		<Button  
+			android:id="@+id/monthNext"
+		    android:layout_width="46dp" 
+		    android:layout_height="wrap_content" 
+		    android:background="@drawable/forward"
+		    android:gravity="center_horizontal"
+		    android:layout_alignParentRight="true"
+		    />
+	</RelativeLayout>
+
+	<com.skp.opx.rpn.month.CalendarMonthView  
+		android:id="@+id/monthView"
+	    android:layout_width="match_parent" 
+	    android:layout_height="280dp"
+	    />
+<LinearLayout
+    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="10dp">
+    
+
+<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="10dp">
+		<TextView
+					android:id="@+id/textDate1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="15dp"
+					android:textColor="#000000"/>
+				<TextView
+					android:layout_marginTop="10dp"
+					android:id="@+id/textDate11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="15dp"
+					android:textColor="#000000"/>
+    
+				<TextView
+			android:layout_marginTop="10dp"
+				android:id="@+id/textDate2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="15dp"
+				android:textColor="#000000"/>
+				
+				<TextView
+			android:layout_marginTop="23dp"
+					android:id="@+id/textDate3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="15dp"
+					android:textColor="#000000"/>
+				<TextView
+			android:layout_marginTop="25dp"
+					android:id="@+id/textDate31"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="15dp"
+					android:textColor="#000000"/>
+				
+				</LinearLayout>
+				
+<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="10dp">
+		<TextView
+				android:id="@+id/textCon1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="1차(6주): 종합백신 1차 + 코로나 장염 1차"
+				android:textSize="17dp"
+				android:paddingTop="2dp"
+				android:paddingBottom="3dp"
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"/>
+		
+				<TextView
+				android:id="@+id/textCon2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="2차(8주): 종합백신 2차 + 코로나 장염 2차"
+				android:paddingTop="2dp"
+				android:paddingBottom="3dp"
+				android:layout_marginLeft="10dp"
+				android:textSize="17dp"
+				android:textColor="#000000"/>
+    
+				<TextView
+				android:id="@+id/textCon3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="3차(10주): 종합백신 3차 + 개인플루엔자 1차"
+				android:textSize="17dp"
+				android:paddingTop="2dp"
+				android:paddingBottom="3dp"
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"/>
+				
+				<TextView
+			    android:id="@+id/textCon4"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dp"
+			    android:paddingBottom="1dp"
+			    android:paddingTop="1dp"
+			    android:text="4차(12주): 종합백신 4차 + 개인플루엔자 2차"
+			    android:textColor="#000000"
+			    android:textSize="17dp" />
+				
+				<TextView
+				android:id="@+id/textCon5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="5차(14주):종합백신 5차 + 켄넬코프1차"
+				android:textSize="17dp"
+				android:paddingTop="1dp"
+				android:paddingBottom="1dp"
+				android:layout_marginLeft="10dp"
+				android:textColor="#000000"/>
+				
+				</LinearLayout>
+
+
+    
+		</LinearLayout>
+</LinearLayout>
